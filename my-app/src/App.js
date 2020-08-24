@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import List from './components/list';
+import MyInfo from './components/myInfo';
 
 function App() {
   return (
     <div className="App">
-      <List></List>
+      <MyInfo/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
