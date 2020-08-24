@@ -3,11 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 import List from './components/list';
 import MyInfo from './components/myInfo';
+import MainContent from './components/mainContent';
+import Header from './components/header';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <MyInfo/>
+      <Header/>
+      <MainContent/>
+      <Footer/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
